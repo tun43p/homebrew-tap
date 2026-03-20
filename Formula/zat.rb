@@ -1,26 +1,26 @@
 class Zat < Formula
   desc "What cat would be if it went to the gym, thanks to Zig."
   homepage "https://github.com/tun43p/zat"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tun43p/zat/releases/download/v0.1.1/zat-aarch64-macos.tar.gz"
-      sha256 "55919e380f5f541d424f604e6a49e2be5a630fc5102f4e0400bf80543a2cb75f"
+      url "https://github.com/tun43p/zat/releases/download/v0.1.2/zat-aarch64-macos.tar.gz"
+      sha256 "39dd219496c93efea8f4fc2cd8a844a9bb6b4300a1be59955d9ae1bc3621b5fd"
     else
-      url "https://github.com/tun43p/zat/releases/download/v0.1.1/zat-x86_64-macos.tar.gz"
-      sha256 "35e14b79c7ec15d12dcb5107aa7ed38159b3a2f13a655b4977f9b7476e329b81"
+      url "https://github.com/tun43p/zat/releases/download/v0.1.2/zat-x86_64-macos.tar.gz"
+      sha256 "b2d295c777bdf7086d143280e7d38b27419a7d398a800b38c039dba84326313e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tun43p/zat/releases/download/v0.1.1/zat-aarch64-linux.tar.gz"
-      sha256 "a9614f4f31467dff54e301fe1b667db0e118c81c1993bb98a0d231c85a2bb7bb"
+      url "https://github.com/tun43p/zat/releases/download/v0.1.2/zat-aarch64-linux.tar.gz"
+      sha256 "9fc4286eb59a06d6e1e0b600f2427740ae10147a143fe691d9ebdfdfb787858e"
     else
-      url "https://github.com/tun43p/zat/releases/download/v0.1.1/zat-x86_64-linux.tar.gz"
-      sha256 "09f59610fd8bf8f5feef534236e5c8c277d6ef9d52bfd3d2fc48d6646b0b39ef"
+      url "https://github.com/tun43p/zat/releases/download/v0.1.2/zat-x86_64-linux.tar.gz"
+      sha256 "0ce6a416950d4a41afd7f305724627399d27e64744334c78474c85f88cfde44f"
     end
   end
 
